@@ -4,6 +4,20 @@
   /* background-color:#585B51;  */
 }
 
+.barra {
+	background: gray;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+}
+
+
 .conteiner
 {
   max-width:900px;
