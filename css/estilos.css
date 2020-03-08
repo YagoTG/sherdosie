@@ -1,7 +1,6 @@
 * {
   padding:0;
   margin:0;
-  /* background-color:#585B51;  */
 }
 
 .barra {/*PASO 1*/
@@ -50,13 +49,10 @@ figure{
 {
   max-width:900px;
   margin: auto;
-  background:yellow;
+  /* background:yellow; */
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows:repeat(3, 100px); 
-    
-    
-    /* position:relative; */
+  grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 1fr [final]; 
+  grid-template-rows: [in-fil] 250px [fil2] 250px [fil3] 250px [fn-fil]; 
 }
 
 .item{
@@ -64,6 +60,15 @@ figure{
   background: aqua;
   border: 1px solid red;
   /* margin: 10px; */
+}
+
+.item:nth-of-type(1) {
+  grid-column: ini-con / fin-con;
+  grid-row: in-fil / fn-fil;
+}
+.item:nth-of-type(2) {
+  grid-column: fin-con / final;
+  grid-row: in-fil / fil2;
 }
 
 
