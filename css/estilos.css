@@ -4,30 +4,59 @@
   /* background-color:#585B51;  */
 }
 
-.barra {
-	background: gray;
-	height: 70px;
+.barra {/*PASO 1*/
+	background:gray;
+	height:70px;
 	display: flex;
-	justify-content: space-between;
-	align-items:center;
+	align-items: center;
+	justify-content: space-between;  
 }
 
-.menu {
-	display: flex;
-	justify-content: space-around;
+ol,ul { /*PASO 2: reseteamos los estilos de margin/pading */
+  margin:0;
+  padding:0;
+  list-style: none;/*quitar numeracion lista*/
+}
+figure{
+  margin:0;
+  margin-left:50px;
 }
 
+.barra a{
+  color:white;
+  text-decoration: none;
+}/*PASO 2:------------------------------------*/
+.menu{ /* PASO 3 : organizamos el nav */
+  height:inherit;
+  margin-right: 30px;
+}
+
+.barra ol{
+  display:flex;
+  height:inherit;
+}
+
+.barra ol li{
+  height:inherit;
+}
+.barra a{
+  display:flex;
+  align-items:center;
+  height:inherit;
+  padding: 0 10px ;
+}
 
 .conteiner
 {
   max-width:900px;
-    margin:auto;
-  
-    background:yellow;
+  margin: auto;
+  background:yellow;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows:repeat(3, 100px); 
     
     
-    margin-top:10px;
-    position:relative;
+    /* position:relative; */
 }
 
 .item{
