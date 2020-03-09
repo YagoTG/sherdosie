@@ -58,8 +58,8 @@ figure{
 
 .item{
   
-  /* background: aqua; */
-  border: 1px solid black;
+  background: white;
+  /* border: 1px solid black; */
   /* margin: 10px; */
 }
 
@@ -72,5 +72,17 @@ figure{
   grid-row: in-fil / fil2;
 }
 
-
+h1 { 
+	text-align: center;
+	font-size: 30px;
+}
+.item:nth-of-type(1) section {
+	margin: 15px;
+	height: 130px;
+}
+.item:nth-of-type(1) section p {
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 28px;
+}
 
