@@ -53,12 +53,13 @@ figure{
   display: grid;
   grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 1fr [final]; 
   grid-template-rows: [in-fil] 250px [fil2] 250px [fil3] 250px [fn-fil]; 
+  grid-column-gap: 5px;
 }
 
 .item{
   
-  background: aqua;
-  border: 1px solid red;
+  /* background: aqua; */
+  border: 1px solid black;
   /* margin: 10px; */
 }
 
