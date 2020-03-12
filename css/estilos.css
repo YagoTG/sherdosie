@@ -51,7 +51,7 @@ figure{
   margin: auto;
   /* background:yellow; */
   display: grid;
-  grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 1fr [final]; 
+  grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 25% [final]; 
   grid-template-rows: [in-fil] 250px [fil2] 250px [fil3] 250px [fn-fil]; 
   grid-column-gap: 5px;
 }
@@ -70,6 +70,7 @@ figure{
 .item:nth-of-type(2) {
   grid-column: fin-con / final;
   grid-row: in-fil / fil2;
+  align-items: center;
 }
 
 h1 { 
@@ -84,5 +85,10 @@ h1 {
 	margin-top: 20px;
 	font-size: 20px;
 	line-height: 28px;
+}
+
+.x{
+	margin-top: 15px;
+	text-align: center;
 }
 
