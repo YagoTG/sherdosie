@@ -5,10 +5,10 @@
 
 .barra {/*PASO 1*/
 	background:gray;
-	height:70px;
+	height:40px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;  
+	justify-content: center;  
 }
 
 ol,ul { /*PASO 2: reseteamos los estilos de margin/pading */
@@ -37,6 +37,7 @@ figure{
 
 .barra ol li{
   height:inherit;
+  font-size: 20px;
 }
 .barra a{
   display:flex;
@@ -64,31 +65,20 @@ figure{
 }
 
 .item:nth-of-type(1) {
-  grid-column: ini-con / fin-con;
+  grid-column: ini-con / final;
   grid-row: in-fil / fn-fil;
 }
-.item:nth-of-type(2) {
-  grid-column: fin-con / final;
-  grid-row: in-fil / fil2;
-  align-items: center;
-}
 
-h1 { 
-	text-align: center;
-	font-size: 30px;
-}
 .item:nth-of-type(1) section {
 	margin: 15px;
 	height: 130px;
 }
-.item:nth-of-type(1) section p {
-	margin-top: 20px;
-	font-size: 20px;
-	line-height: 28px;
-}
 
-.x{
-	margin-top: 15px;
-	text-align: center;
-}
 
+.y {
+  background-color: orange;
+}
+.hero img {
+ width: 100%;
+ margin-left: 0;
+}
