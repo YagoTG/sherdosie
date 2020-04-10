@@ -86,9 +86,18 @@ figure{
  position: relative;
 }
 .hero .hero-title {
-  background-color: orange;
-  width: 400px;
-  height: 200px;
+  /* background-color: orange; */
+  width: 480px;
+  height: 60px;
   position: absolute;
   z-index: 2;
+  padding: 10px;
+  margin-top: 150px;
+  margin-left: 400px;
+}
+.hero .hero-title h1 {
+  font-family: fantasy;
+  font-size: 50px;
+  margin-left: 10px;
+  color: #C3E2D2;
 }
