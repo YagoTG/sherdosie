@@ -49,7 +49,7 @@ figure{
 .conteiner
 {
   max-width:900px;
-  margin: auto;
+  margin: 0 auto 0 auto;
   /* background:yellow; */
   display: grid;
   grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 25% [final]; 
@@ -71,7 +71,19 @@ figure{
 
 .item:nth-of-type(1) section {
 	margin: 15px;
-	height: 130px;
+  height: 130px;
+}
+
+.item:nth-of-type(1) .post {
+  width: 900px;
+  height: 300px;
+  background-color: aqua;
+}
+
+.item:nth-of-type(1) .post .post_img {
+  width: 469px;
+  height: 300px;
+  background-color: red;
 }
 
 
