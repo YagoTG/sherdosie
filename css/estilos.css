@@ -1,7 +1,9 @@
 * {
   padding:0;
   margin:0;
+  
 }
+body {background-color: #e0e0e0;}
 
 .barra {/*PASO 1*/
 	background:gray;
@@ -76,26 +78,28 @@ figure{
 
 .item:nth-of-type(1) .conten_post {
   width: 900px;
-  height: 300px;
-  background-color: aqua;
+  height: 500px;
+  /* background-color: aqua; */
 }
 
 .item:nth-of-type(1) .conten_post .post {
-  width: 880px;
+  width: 860px;
   height: 300px;
-  background-color: red;
+  /* background-color: red; */
+  margin-top: 20px;
   margin-left: 10px;
   display: flex;
+  border: 1px solid black;
 }
 .post_img {
   width: 50%;
   height: 300px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .post_text {
   width: 50%;
   height: 300px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .y {
@@ -125,23 +129,46 @@ figure{
   color: #C3E2D2;
 }
 .quien{
-  width: 200px;
-  height: 100px;
-  background-color: aqua;
+  width: 190px;
+  height: 50px;
+  /* background-color: aqua; */
   display: flex;
 }
 .q_img {
-  width: 50%;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 .text {
-  width: 50%;
-  height: 50px; 
+  width: 140px;
+  height: 30px;
+  margin-top: 6px;
+  margin-left: 10px; 
 }
-.text h1 {
-  font-size: 10px; 
+.text .ico_title {
+  font-size: 18px; 
 }
-.text h2 {
-  font-size: 5px; 
+.text .ico_subti {
+  font-size: 12px; 
+}
+.post_title {
+  width: 200px;
+  font-size: 20px;
+}
+.title_1 {
+  width: 400px;
+  font-weight: 500;
+  font-size: 34px;
+  margin-left: 30px;
+}
+.post_title p {
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 17px;
+}
+.post_img img {
+  width:100%;
+  height:100%;
 }
