@@ -69,6 +69,7 @@ figure{
 .item:nth-of-type(1) {
   grid-column: ini-con / final;
   grid-row: in-fil / fn-fil;
+  margin-top: 25px;
 }
 
 .item:nth-of-type(1) section {
@@ -80,6 +81,11 @@ figure{
   width: 900px;
   height: 500px;
   /* background-color: aqua; */
+}
+
+.item:nth-of-type(1) .conten_post .titu_pos {
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .item:nth-of-type(1) .conten_post .post {
@@ -114,13 +120,13 @@ figure{
 }
 .hero .hero-title {
   /* background-color: orange; */
-  width: 480px;
+  width: 520px;
   height: 60px;
   position: absolute;
   z-index: 2;
   padding: 10px;
   margin-top: 150px;
-  margin-left: 400px;
+  margin-left: 335px;
 }
 .hero .hero-title h1 {
   font-family: fantasy;
@@ -130,13 +136,13 @@ figure{
 }
 .quien{
   width: 190px;
-  height: 50px;
+  height: 40px;
   /* background-color: aqua; */
   display: flex;
 }
 .q_img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   margin-top: 5px;
   margin-left: 5px;
@@ -148,10 +154,10 @@ figure{
   margin-left: 10px; 
 }
 .text .ico_title {
-  font-size: 18px; 
+  font-size: 14px; 
 }
 .text .ico_subti {
-  font-size: 12px; 
+  font-size: 10px; 
 }
 .post_title {
   width: 200px;
@@ -162,6 +168,7 @@ figure{
   font-weight: 500;
   font-size: 34px;
   margin-left: 30px;
+  margin-top: 12px;
 }
 .post_title p {
   width: 400px;
