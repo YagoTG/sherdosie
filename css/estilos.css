@@ -55,7 +55,7 @@ figure{
   /* background:yellow; */
   display: grid;
   grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 25% [final]; 
-  grid-template-rows: [in-fil] 250px [fil2] 250px [fil3] 250px [fn-fil]; 
+  grid-template-rows: [in-fil] 500px [fil2] 450px [fil3] 410px [fn-fil]; 
   grid-column-gap: 5px;
 }
 
@@ -133,6 +133,13 @@ figure{
   font-size: 50px;
   margin-left: 10px;
   color: #C3E2D2;
+}
+.sub_t {
+  color: white;
+  margin-top: -1px;
+  margin-left: 75px;
+  font-size: 19px;
+  font-weight: lighter;
 }
 .quien{
   width: 190px;
