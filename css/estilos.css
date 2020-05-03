@@ -80,7 +80,6 @@ figure{
 .item:nth-of-type(1) .conten_post {
   width: 900px;
   height: 500px;
-  /* background-color: aqua; */
 }
 
 .item:nth-of-type(1) .conten_post .titu_pos {
