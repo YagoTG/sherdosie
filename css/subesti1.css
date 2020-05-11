@@ -90,7 +90,7 @@ figure{
 
 .item:nth-of-type(1) .conten_post .post {
   width: 860px;
-  height: 300px;
+  height: 800px;
   /* background-color: red; */
   margin-top: 20px;
   margin-left: 10px;
@@ -141,6 +141,13 @@ figure{
   font-size: 19px;
   font-weight: lighter;
 }
+.enca{
+  width: 740px;
+  height: 600px;
+  margin-left: 61px;
+  margin-top: 30px;  
+}
+
 .quien{
   width: 190px;
   height: 40px;
@@ -171,16 +178,32 @@ figure{
   font-size: 20px;
 }
 .title_1 {
-  width: 400px;
+  width: 600px;
   font-weight: 500;
-  font-size: 34px;
-  margin-left: 30px;
-  margin-top: 12px;
+  font-size: 37px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.e1{
+  margin-top: 20px;
+  font-weight: inherit;
+  font-size: 15px;
+}
+.e2 {
+  margin-top: 20px;
+  font-size: 20px;
 }
 .post_title p {
   width: 400px;
   margin-left: 30px;
-  margin-top: 17px;
+  margin-top: 20px;
+  font-size: 21px;
+}
+figure {
+ margin-top: 20px;
+}
+figure img {
+  width: 740px;
 }
 .post_img img {
   width:100%;
