@@ -1,0 +1,187 @@
+* {
+    padding:0;
+    margin:0;
+    
+  }
+  body {background-color: #e0e0e0;}
+  
+  .barra {/*PASO 1*/
+      background:gray;
+      height:40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;  
+  }
+  
+  ol,ul { /*PASO 2: reseteamos los estilos de margin/pading */
+    margin:0;
+    padding:0;
+    list-style: none;/*quitar numeracion lista*/
+  }
+  figure{
+    margin:0;
+    /* margin-left:50px; */
+  }
+  
+  .barra a{
+    color:white;
+    text-decoration: none;
+  }/*PASO 2:------------------------------------*/
+  .menu{ /* PASO 3 : organizamos el nav */
+    height:inherit;
+    margin-right: 30px;
+  }
+  
+  .barra ol{
+    display:flex;
+    height:inherit;
+  }
+  
+  .barra ol li{
+    height:inherit;
+    font-size: 20px;
+  }
+  .barra a{
+    display:flex;
+    align-items:center;
+    height:inherit;
+    padding: 0 10px ;
+  }
+  
+  .conteiner
+  {
+    max-width:900px;
+    margin: 0 auto 0 auto;
+    /* background:yellow; */
+    display: grid;
+    grid-template-columns: [ini-con] 1fr [lin2] 1fr [fin-con] 25% [final]; 
+    grid-template-rows: [in-fil] 500px [fil2] 450px [fil3] 410px [fn-fil]; 
+    grid-column-gap: 5px;
+  }
+  
+  .item{
+    
+    background: white;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+  }
+  
+  .item:nth-of-type(1) {
+    grid-column: ini-con / final;
+    grid-row: in-fil / fn-fil;
+    margin-top: 25px;
+  }
+  
+  .item:nth-of-type(1) section {
+      margin: 15px;
+    height: 130px;
+  }
+  
+  .item:nth-of-type(1) .conten_post {
+    width: 900px;
+    height: 500px;
+  }
+  
+  .item:nth-of-type(1) .conten_post .titu_pos {
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .item:nth-of-type(1) .conten_post .post {
+    width: 860px;
+    height: 300px;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    border: 1px solid #C3E2D2;
+  }
+  .post_img {
+    width: 50%;
+    height: 300px;
+    /* background-color: yellow; */
+  }
+  .post_text {
+    width: 50%;
+    height: 300px;
+    /* background-color: green; */
+  }
+  
+  .y {
+    background-color: orange;
+  }
+  .hero img {
+   width: 100%;
+   height: 400px;
+   margin-left: 0;
+   z-index: 1;
+   position: relative;
+  }
+  .hero .hero-title {
+    /* background-color: orange; */
+    width: 520px;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 335px;
+  }
+  .hero .hero-title h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 10px;
+    color: #C3E2D2;
+  }
+  .sub_t {
+    color: white;
+    margin-top: -1px;
+    margin-left: 75px;
+    font-size: 19px;
+    font-weight: lighter;
+  }
+  .quien{
+    width: 190px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+  }
+  .q_img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .text {
+    width: 140px;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 10px; 
+  }
+  .text .ico_title {
+    font-size: 14px; 
+  }
+  .text .ico_subti {
+    font-size: 10px; 
+  }
+  .post_title {
+    width: 200px;
+    font-size: 20px;
+  }
+  .title_1 {
+    width: 400px;
+    font-weight: 500;
+    font-size: 34px;
+    margin-left: 30px;
+    margin-top: 12px;
+  }
+  .post_title p {
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 17px;
+  }
+  .post_img img {
+    width:100%;
+    height:100%;
+  }
