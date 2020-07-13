@@ -109,7 +109,7 @@ figure{
 }
 
 .y {
-  background-color: orange;
+  background-color: #003c80;
 }
 .hero img {
  width: 100%;
@@ -208,4 +208,21 @@ figure img {
 .post_img img {
   width:100%;
   height:100%;
+}
+
+.foo {
+  font-family: 'Ubuntu Mono', monospace;
+  margin-top: 100px;
+  width: 100%;
+  height: 38px;
+  color: white;
+  background-color: #003c80;
+  position: relative;
+}
+
+.fooo {
+  position: absolute;
+  margin-top: 12px;
+  font-size: 16px;
+  margin-left: 429px;
 }
